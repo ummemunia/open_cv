@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 992px;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: #262d33;
+    font-size: 18px;
+    color: white;
+}
+
+header {
+    display: flex;
+    position: relative;
+}
+
+header .logo_name {
+    position: absolute;
+    top: 15px;
+    font-size: 30px;
+    color: #02a551;
+    font-weight: bold;
+}
+
+header .nav {
+    position: absolute;
+    top: 15px;
+    left: 857px;
+}
+
+header .nav > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+header .nav > a {
+    font-size: 25px;
+    position: absolute;
+    left: 105px;
+    padding: 5px;
+}
+
+header .nav:hover .hide {
+    visibility: visible;
+    opacity: 1;
+    color: #02a551;
+    top: 25px;
+    transition: 0.8s;
+}
+
+header .nav > a > i:hover {
+    color: #02a551;
+    transition: 0.8s;
+}
+
+header .nav > .hide {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    display: block;
+    width: 150px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+header .nav > .hide ul {
+    padding-top: 15px;
+}
+
+header .nav > .hide ul li {
+    list-style-type: none;
+    float: right;
+    padding-top: 15px;
+}
+
+header .nav > .hide ul li:hover a {
+    color: #02a551;
+    transition: 0.8s;
+}
+
+header .nav .hide ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+}
+
+header .nav .hide ul li a i {
+    padding: 0px 17px 0px 8px;
+    font-size: 23px;
+}
+
+header .nav > .hide ul li a:hover i {
+    border-right: 1px solid green;
+}
+
+
+.main {
+    margin: 100px 0px 20px;
+    height: 600px;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.main .card {
+    flex: 45%;
+    height: 450px;
+    background-color: #1f242a;
+    position: relative;
+    text-align: center;
+    margin-left: 40px;
+    box-shadow: 0 0 15px rgb(100, 100, 100);
+    border-radius: 15px;
+}
+
+.main .card .border1 {
+    width: 200px;
+    border: 3px solid #00a652;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    top: 10%;
+    left: 27.5%;
+    transform: translateX(-10%);
+}
+
+.main .card .border1 .border2 {
+    border: 8px solid #00a652;
+    border-radius: 50%;
+}
+
+.main .card .border1 .border2 .border3 {
+    border: 8px solid #3ab54a;
+    border-radius: 50%;
+}
+
+.main .card .border1 .border2 .border3 .img_body {
+    background-color: rgb(100, 100, 100);
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 44%;
+}
+
+.main .card h1 {
+    font-size: 25px;
+    margin-top: 265px;
+    padding: 10px 0px;
+}
+
+.main .card h4 {
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+.main .card .icon a i {
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.main .card .icon a i:hover {
+    background-color: #3ab54a;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+
+.main .profile {
+    flex: 60%;
+    height: 320px;
+    background-color: #1f242a;
+    margin: 0px 100px 0px 30px;
+    box-shadow: 0 0 15px rgb(100, 100, 100);
+    border-radius: 15px;
+}
+
+.main .profile h2 {
+    padding: 20px;
+    font-size: 25px;
+}
+
+.main .profile table {
+    padding: 0px 20px;
+}
+
+.main .profile table tr {
+    padding-bottom: 10px;
+}
+
+.main .profile table tr td {
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.main .profile .link {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main .profile .link a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #171c20;
+    border-radius: 20px;
+}
+
+.main .profile .link a:hover {
+    background-color: #00a652;
+    transition: 0.8s;
+    border-radius: 20px;
+}
+
+footer {
+    height: 40px;
+    padding: 0px 30px
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer .icon {
+    float: right;
+    vertical-align: top;
+}
+
+footer .icon a i {
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+footer .icon a i:hover {
+    background-color: #3ab54a;
+    transition: 0.8s;
+}
